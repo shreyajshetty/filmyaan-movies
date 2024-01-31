@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+:root{
+    --dark-color:#1A120B;
+    --dark-light-color:#3D3B40;
+    --light-color:#EAECCC;
+
+}
+*{
+    font-family:"Nunito", sans-serif;
+    background-color: var(--dark-light-color);
+    
+}
+body{
+    margin:0;
+    padding :0;
+}
+.logo{
+    font-weight: bold;
+    font-size:2rem ;
+}
+.logo p{
+    color:#0b0202;
+
+}
+.logo p span{
+    color:yellow
+}
+.search-container{
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    
+    
+
+}
+.search-movie{
+    background-color: #fff;
+    padding:7px;
+    width: calc(350px - 8px);
+}
+.search-list-thumbnail img{
+    width:50px;
+    border: 1px solid #000;
+    float:left;
+    
+}
+.search-list-thumbnail{
+    background-color: #fff;
+}
+
+.search-time{
+    background-color: var(--light-dark-color);
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--dark-color);
+    width: calc(350px - 8px);
+    color: #fff;
+    cursor: pointer;
+    transition:background-color 200ms ease;
+}
+.search-time:hover{
+    background-color: #1f1f1f;
+}
+
+.movie-poster img{
+    width:100%;
+    box-sizing: border-box;
+    border:1px solid #000;
+}
+li {
+    list-style-type: none;
+}
+
+.movie-info .movie-info-li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.movie-info .movie-info-li li {
+    margin-bottom: 10px; 
+    
+}
+
+
+.hide-search{
+    display: none;
+}
